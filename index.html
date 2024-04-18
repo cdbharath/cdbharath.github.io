@@ -92,17 +92,31 @@
 									<!-- <p style="text-align:left;">The projects below were done as a part of course projects at Worcester Polytechnic Institute, course projects and club projects at National Institute of Technology, Tiruchirappalli and research internships at Indian Institute of Technology, Madras and Indian Institute of Science.</p> -->
 									<div class="features">
 										<article>
-											<a class="image"><img src="images/benchmarking.gif" alt="" />
+											<a class="image"><img src="images/benchmarking1.gif" alt="" />
 											</a>
 											
 											<div class="inner">
-												<h4>Benchmarking Vision based Grasp Detection algorithms</h4>
-												<p style="text-align:left;">Developed an automation pipeline for benchmarking vision based grasp detection algorithms on the Franka Panda
-													robot.</p>
+												<h4>Benchmarking Vision based Grasp Detection algorithms <a href="https://arxiv.org/abs/2307.11622" style="color: rgb(65, 58, 58);" target="_blank">[abstract]</a> </h4> 
+												<p style="text-align:left;">Developed a platform agnostic benchmarking pipeline to evaluate vision based grasp detection algorithms. The research will be submitted to Robotics and Automation Letters. 
+													</p>
 												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/franka_panda" target="_blank" class="icon brands fa-github">Github</a></li>
+													<li><a href="https://github.com/cdbharath/benchmarking_vision_based_grasping" target="_blank" class="icon brands fa-github">Github</a></li>
 												</ul>
 											</div>
+										</article>
+
+										<article>
+											<a class="image"><img src="images/pointnet.gif" alt="" style="width:100%;" /></a>
+
+											<div class="inner">
+												<h4>Lidar odometry estimation using PointNet</h4>
+												<p style="text-align:left">Developed a learning-based odometry regression algorithm utilizing KITTI lidar dataset. Built a PointNet based architecture for dynamic object filtering and pose estimation.
+												</p>													
+												<ul class="actions special">
+													<li><a href="https://github.com/cdbharath/odom-pointnet" target="_blank" class="icon brands fa-github">Github</a></li>
+												</ul>
+											</div>
+
 										</article>
 
 											<article>
@@ -120,19 +134,32 @@
 											</article>
 
 											<article>
-												<a class="image"><img src="images/odom.gif" alt="" /></a>
+												<a class="image"><img src="images/mapping.gif" alt="" /></a>
 	
 												<div class="inner">
 													<h4>Visual Odometry and Sparse Mapping for Autonomous Vehicles</h4>
-													<p style="text-align:left">Developed ORB feature-based feature detection and matching strategies. Implemented feature triangulation to construct sparse 3D map.
+													<p style="text-align:left">Implemented ORB feature matching and Essential Matrix algorithm for pose estimation. Implemented triangulation and bundle adjustment to construct sparse 3D map.
 													</p>													
 													<ul class="actions special">
-														<li><a href="https://github.com/cdbharath/vslam" target="_blank" class="icon brands fa-github">Github</a></li>
+														<li><a href="https://github.com/cdbharath/kitti_slam" target="_blank" class="icon brands fa-github">Github</a></li>
 													</ul>
 												</div>
 	
 											</article>
 		
+											<article>
+												<a class="image"><img src="images/pose_estimation.gif" alt="" />
+												</a>
+												
+												<div class="inner">
+													<h4>3D Pose Estimation and Augmented Reality using Rubik’s cube as fiducial</h4>
+													<p style="text-align:left;">Implemented Pose Estimation and Augmented Reality using Homography and Perspective Projection with a fiducial 4x4 Rubik's cube.</p>
+													<ul class="actions special">
+														<li><a href="https://github.com/cdbharath/rubiks_cube_3dcv" target="_blank" class="icon brands fa-github">Github</a></li>
+													</ul>
+												</div>
+											</article>
+	
 										<article>
 											<a class="image"><img src="images/nav.gif" alt="" /></a>
 
@@ -153,37 +180,10 @@
 											
 											<div class="inner">
 												<h4>Shadow Detection and Removal using Unsupervised Segmentation</h4>
-												<p style="text-align:left;">Implemented an unsupervised segmentation algorithm for detection of shadows in an image. 
-													Designed a pipeline to extract illuminance and remove shadows from the image.</p>
+												<p style="text-align:left;">Implemented an unsupervised segmentation algorithm to segment subregions in an image. 
+													Removed shadows by transferring illuminance across segmented subregions.</p>
 												<ul class="actions special">
 													<li><a href="https://github.com/cdbharath/shadow_detection_and_removal" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
-
-										<article>
-											<a class="image"><img src="images/pose_estimation.gif" alt="" />
-											</a>
-											
-											<div class="inner">
-												<h4>3D Pose Estimation and Augmented Reality using Rubik’s cube as fiducial</h4>
-												<p style="text-align:left;">Implemented Pose Estimation and Augmented Reality using Homography and Perspective Projection with a fiducial 4x4 Rubik's cube.</p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/rubiks_cube_3dcv" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
-
-										<article>
-											<a class="image"><img src="images/pc1.jpg" alt="" />
-											</a>
-											
-											<div class="inner">
-												<h4>Point Cloud Processing based Grasp Synthesis and Manipulation</h4>
-												<p style="text-align:left;">Developed a pipeline to synthesize grasp points by processing point clouds obtained from eye in hand kinect sensor
-													mounted on Panda manipulator using PCL in Gazebo.</p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/pick_and_place_pcl" target="_blank" class="icon brands fa-github">Github</a></li>
 												</ul>
 											</div>
 										</article>
@@ -193,9 +193,9 @@
 												</a>
 												
 												<div class="inner">
-													<h4> Performance Evaluation and Analysis of various Motion Planning Algorithms </h4>
+													<h4> Primer on Path Planning Algorithms </h4>
 													<p style="text-align:left;">Implemented various graph and sampling-based motion planning algorithms (RRT, RRT*, Informed RRT*, PRM, D*,
-														A*, Djikstra).</p>
+														A*, Djikstra) and performed a comparative analysis.</p>
 													<ul class="actions special">
 														<li><a href="https://github.com/cdbharath" target="_blank" class="icon brands fa-github">Github</a></li>
 													</ul>
