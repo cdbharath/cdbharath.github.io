@@ -1,445 +1,513 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Bharath Kumar</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharath Kumar</title>
+    <meta name="description" content="Robotics Engineer specializing in Autonomous Vehicles, Perception, and SLAM">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        (function() {
+            try {
+                var saved = localStorage.getItem('theme');
+                var theme = saved === 'dark' || saved === 'light' ? saved : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+</head>
+<body class="bg-global-bg text-global-text antialiased">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/dp.jpeg" alt="" /></span>
-					<h1 id="logo"><a href="#">Bharath Kumar Ramesh Babu</a></h1>
-					<!-- <p><a href="./assets/resume/CV.pdf" target="_blank">Resume</a>  -->
-					</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">Home</a></li>
-						<!-- <li><a href="#two">Experience</a></li> -->
-						<li><a href="#two">Projects</a></li>
-						<li><a href="#three">Experience</a></li>
-						<li><a href="#four">Skills</a></li>
+    <!-- Fixed Header -->
+    <header id="main-header" class="group">
+        <div class="header-grid">
+            <a href="#" class="header-logo">
+                <span class="logo-text">BK</span>
+            </a>
+            <div class="header-title">
+                <span class="text-xl font-bold sm:text-2xl">Bharath Kumar</span>
+            </div>
+            <nav class="mobile-nav-menu header-nav" id="navigation-menu">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#research">Research</a>
+                <a href="#internships">Internships</a>
+            </nav>
+            <div class="header-controls" id="header-controls">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="moon-icon" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                    </svg>
+                </button>
+                <button id="toggle-navigation-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+                    <svg class="menu-open-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="menu-close-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
 
-					</ul>
-				</nav>
-				<footer>
-					<h5>Contact</h5>
-					<ul class="icons">
-						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-						<li><a href="https://www.linkedin.com/in/bharath-kumar-9651a6154/" target="_blank" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/cdbharath" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:kumar7bharath@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <main class="mx-auto max-w-3xl px-4 sm:px-8">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- ── About ─────────────────────────────────────── -->
+        <section id="about" class="mb-16">
+            <div class="prose">
+                <div class="about-header">
+                    <img src="images/dp.jpeg" alt="Bharath Kumar" class="about-avatar">
+                    <div class="about-header-content">
+                        <h1 class="about-name">Bharath Kumar Ramesh Babu</h1>
+                        <p class="about-role">Software Engineer II, Mapping &mdash; <a href="https://aurora.tech/" target="_blank" class="cactus-link">Aurora</a></p>
+                        <p class="about-location">Sunnyvale, California</p>
+                        <div class="contact-chips">
+                            <a href="https://www.linkedin.com/in/bharath-kumar-9651a6154/" target="_blank" class="contact-chip">
+                                <!-- LinkedIn icon -->
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/cdbharath" target="_blank" class="contact-chip">
+                                <!-- GitHub icon -->
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="mailto:kumar7bharath@gmail.com" class="contact-chip">
+                                <!-- Email icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p>I am a software engineer working on HD mapping for autonomous vehicles at Aurora. My work spans HD map generation, localization, deep learning pipelines, and 3D geometry algorithms for autonomous driving. My background includes perception, SLAM, and robot manipulation, with experience across autonomous vehicles, drones, and manipulators. I am proficient in C++ and Python, and passionate about building reliable, high-quality systems at the intersection of computer vision and robotics.</p>
+            </div>
+        </section>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- ── Experience ─────────────────────────────────── -->
+        <section id="experience" class="mb-16">
+            <div class="prose">
+                <h2 class="section-title">Experience</h2>
 
-						<!-- One -->
-						<!-- <section id="one">
-						<div class="image main" data-position="center">
-							<img src="images/cover.jpg" alt="" />
-						</div>
-						<p style="text-align:left;">I am a passionate roboticist, constantly learning and experimenting with new technologies. I have experience working in the drone and AV industry and have worked on an array of projects involving perception and control in the past. I look forward to working with manipulators and mobile robots with a scope on perception and motion planning. </p>
-						</section> -->
+                <h3 class="subsection-title">Work</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org"><a href="https://aurora.tech/" target="_blank" class="cactus-link">Aurora</a></span>
+                            <span class="timeline-role">&mdash; Software Engineer II, Mapping</span>
+                            <span class="timeline-dates">Jun 2023 &ndash; Present</span>
+                        </div>
+                        <div class="timeline-meta">Mountain View, CA</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Developed HD map generation and localization workflows for Aurora's autonomous driving system. Maintained scalable HD map infrastructure and developed geometric and semantic validation algorithms to ensure high quality outputs.</li>
+                                <li>Engineered automated pipelines leveraging deep learning and geometric algorithms to extract lane boundaries and traffic lights/signs from LiDAR and camera data.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org"><a href="https://flytbase.com/" target="_blank" class="cactus-link">Flytbase</a></span>
+                            <span class="timeline-role">&mdash; Robotics Engineer</span>
+                            <span class="timeline-dates">Jul 2020 &ndash; Jun 2021</span>
+                        </div>
+                        <div class="timeline-meta">India</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Developed perception and navigation modules for drone-based warehouse inventory product and helped progress it to deployment testing at 3 prominent warehouses in the USA.</li>
+                                <li>Engineered barcode detection and sensor fusion pipelines. Worked on Mask-RCNN/MultiNet models and ORB-SLAM for aisle/bin segmentation and localization. Delivered RRT* planner module for drone surveillance product.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-						<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/cover.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major"> 
-										<h3 style="color:#78CD9C ">About Me</h3>
-										<!-- <p>Just an incredibly simple responsive site<br />
-										template freebie by .</p> -->
-									</header>
-									<p style="text-align:left;">I am a passionate roboticist, constantly learning and experimenting with cutting-edge technologies. 
-									My background spans across Autonomous Vehicles, Drones and Manipulators, with impactful contributions to projects focussing on 
-									perception and motion planning for robots. I am proficient in C++/Python and have a strong foundation in Robotics. I am eager to 
-									contribute to open-source projects and to collaborate with others to solve challenging problems.  
-									</p>
-										<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p> -->
-										
-								</div>
-							</section>
+                <h3 class="subsection-title">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org">Worcester Polytechnic Institute</span>
+                            <span class="timeline-dates">Aug 2021 &ndash; May 2023</span>
+                        </div>
+                        <div class="timeline-meta">Massachusetts, USA &middot; CGPA: 4.0/4.0</div>
+                        <div class="timeline-desc">
+                            <p>M.S. Robotics Engineering</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org">National Institute of Technology Tiruchirappalli</span>
+                            <span class="timeline-dates">Jul 2016 &ndash; Sep 2020</span>
+                        </div>
+                        <div class="timeline-meta">India &middot; CGPA: 7.8/10</div>
+                        <div class="timeline-desc">
+                            <p>B.Tech. Instrumentation and Control Engineering &middot; Minor in Computer Science Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Two -->
-						<!-- Three -->
-							<section id="two">
-								<div class="container">
-									<!-- <p style="text-align:left;">I am a passionate roboticist, constantly learning and experimenting with new technologies. I have experience working in the drone and AV industry and have worked on an array of projects involving perception and control in the past. I look forward to working with manipulators and mobile robots with a scope on perception and motion planning. </p> -->
+        <!-- ── Publications ───────────────────────────────── -->
+        <section id="publications" class="mb-16">
+            <div class="prose">
+                <h2 class="section-title">Publications</h2>
 
-									<h3 style="color:#78CD9C ">Projects</h3>
-									<!-- <p>Just an incredibly simple responsive site<br />
-									template freebie by .</p> -->
-									</header>
-									<br>
-									
-									<!-- <p style="text-align:left;">The projects below were done as a part of course projects at Worcester Polytechnic Institute, course projects and club projects at National Institute of Technology, Tiruchirappalli and research internships at Indian Institute of Technology, Madras and Indian Institute of Science.</p> -->
-									<div class="features">
-										<article>
-											<a class="image"><img src="images/benchmarking1.gif" alt="" />
-											</a>
-											
-											<div class="inner">
-												<h4>Benchmarking Vision based Grasp Detection algorithms <a href="https://arxiv.org/abs/2307.11622" style="color: rgb(65, 58, 58);" target="_blank">[arxiv]</a> </h4> 
-												<p style="text-align:left;">Developed a platform agnostic benchmarking pipeline to evaluate vision based grasp detection algorithms. The research will be submitted to Robotics and Automation Letters. 
-													</p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/benchmarking_vision_based_grasping" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
+                <div class="publication-card pub-featured">
+                    <div class="publication-image">
+                        <img data-src="images/benchmarking1.gif" alt="Grasp Detection Benchmarking">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            A Benchmarking Study of Vision-based Robotic Grasping Algorithms
+                        </h3>
+                        <span class="publication-venue">International Conference on Robotics and Automation (ICRA) 2026 &mdash; Accepted</span>
+                        <span class="publication-venue">IEEE Robotics and Automation Magazine (RAM), 2025</span>
+                        <p class="publication-authors">Bharath K. Ramesh Babu, S.&thinsp;S. Balakrishna, B. Flynn, V. Kapoor, A. Norton, H. Yanco, B. Calli</p>
+                        <p class="publication-description">A platform-agnostic benchmarking pipeline to evaluate vision-based grasp detection algorithms across various robot and sensor configurations. Implements and evaluates learning-based (GG-CNN, ResNet) and analytical (Point Cloud Top Surface, Gripper Mask-based) algorithms.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-conference">IEEE RAM 2025</span>
+                            <span class="tag tag-interpretability">Manipulation</span>
+                            <span class="tag tag-arxiv">Benchmarking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ieeexplore.ieee.org/document/11174039" target="_blank" class="cactus-link">IEEE RAM</a>
+                            <a href="https://arxiv.org/abs/2503.11163" target="_blank" class="cactus-link">arXiv</a>
+                            <a href="https://github.com/cdbharath/benchmarking_vision_based_grasping" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-										<article>
-											<a class="image"><img src="images/pointnet.gif" alt="" style="width:100%;" /></a>
+            </div>
+        </section>
 
-											<div class="inner">
-												<h4>Lidar Odometry Estimation using PointNet and Spherical Projection Correspondance</h4>
-												<p style="text-align:left">Developed a learning-based odometry regression algorithm utilizing KITTI lidar dataset. Built a PointNet based architecture for dynamic object filtering and pose estimation.
-												</p>													
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/odom-pointnet" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
+        <!-- ── Projects ───────────────────────────────────── -->
+        <section id="projects" class="mb-16">
+            <div class="prose">
+                <h2 class="section-title">Projects</h2>
 
-										</article>
+                <div class="publication-card">
+                    <div class="publication-image" style="width:400px; overflow:hidden;">
+                        <img data-src="images/open3d.png" alt="Open3D Contribution" style="width:100%; height:auto; margin-bottom:-33.33%;">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Open3D &mdash; Open Source Contribution</h3>
+                        <span class="publication-venue">Mar 2024 &ndash; Present</span>
+                        <p class="publication-description">Landed pull requests enhancing mesh processing algorithms by adding UV map interpolation functionality and improving the TriangleMesh operator to handle UV maps more effectively.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-arxiv">Open Source</span>
+                            <span class="tag tag-interpretability">3D Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/isl-org/Open3D" target="_blank" class="cactus-link">Open3D</a>
+                        </div>
+                    </div>
+                </div>
 
-											<article>
-												<a class="image"><img src="images/cityscapes.png" alt="" />
-												</a>
-												
-												<div class="inner">
-													<h4> Semantic Segmentation and Depth Estimation using FCN based Multi Task Learning</h4>
-													<p style="text-align:left;">Implemented and Optimized an MTL architecture to achieve real-time inference of 12 FPS. Achieved 81% MeanIOU
-														and 4m RMSE on the CityScapes.</p>
-													<ul class="actions special">
-														<li><a href="https://github.com/cdbharath/multitask-seg-depth" target="_blank" class="icon brands fa-github">Github</a></li>
-													</ul>
-												</div>
-											</article>
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/pointnet.gif" alt="LiDAR Odometry">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">LiDAR Odometry Estimation using PointNet</h3>
+                        <p class="publication-description">Developed a learning-based odometry regression algorithm utilizing the KITTI lidar dataset. Built a PointNet-based architecture to filter dynamic objects and estimate 6D poses. Implemented feature matching in depth space, achieving results comparable to state-of-the-art while outperforming ICP.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-safety">SLAM</span>
+                            <span class="tag tag-conference">Perception</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/odom-pointnet" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-											<!-- <article>
-												<a class="image"><img src="images/mapping.gif" alt="" /></a>
-	
-												<div class="inner">
-													<h4>Visual Odometry and Sparse Mapping for Autonomous Vehicles</h4>
-													<p style="text-align:left">Implemented ORB feature matching and Essential Matrix algorithm for pose estimation. Implemented triangulation and bundle adjustment to construct sparse 3D map.
-													</p>													
-													<ul class="actions special">
-														<li><a href="https://github.com/cdbharath/kitti_slam" target="_blank" class="icon brands fa-github">Github</a></li>
-													</ul>
-												</div>
-	
-											</article> -->
-											<article>
-												<a class="image"><img src="images/sfm1.jpg" style="width:100%; padding-left:0px;" alt="" />
-												</a>
-												
-												<div class="inner">
-													<h4> 3D Reconstruction and Structure From Motion using Oxford Multi-View Dataset </h4>
-													<p style="text-align:left;">Implemented sparse 3D reconstruction and structure from motion from scratch with Oxford Multi-View Dataset.</p>
-													<ul class="actions special">
-														<li><a href="https://github.com/cdbharath/mvg" target="_blank" class="icon brands fa-github">Github</a></li>
-													</ul>
-												</div>
-											</article>
-			
-											<article>
-												<a class="image"><img src="images/cube.jpg" alt="" />
-												</a>
-												
-												<div class="inner">
-													<h4>3D Pose Estimation and Augmented Reality using Rubik’s cube as fiducial</h4>
-													<p style="text-align:left;">Implemented Pose Estimation and Augmented Reality using Homography and Perspective Projection with a fiducial 4x4 Rubik's cube.</p>
-													<ul class="actions special">
-														<li><a href="https://github.com/cdbharath/rubiks_cube_3dcv" target="_blank" class="icon brands fa-github">Github</a></li>
-													</ul>
-												</div>
-											</article>
-											
-										<article>
-											<a class="image"><img src="images/shadow.png" alt="" />
-											</a>
-											
-											<div class="inner">
-												<h4>Shadow Detection and Removal using Unsupervised Segmentation</h4>
-												<p style="text-align:left;">Implemented an unsupervised segmentation algorithm to segment subregions in an image. 
-													Removed shadows by transferring illuminance across segmented subregions.</p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/shadow_detection_and_removal" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
-										<article>
-											<a class="image"><img src="images/nav.gif" alt="" /></a>
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/cityscapes.png" alt="Semantic Segmentation">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Semantic Segmentation &amp; Depth Estimation via Multi-Task Learning</h3>
+                        <p class="publication-description">Implemented and optimized an FCN-based MTL architecture achieving real-time inference at 12 FPS. Achieved 81% MeanIOU and 4m RMSE on CityScapes. Modularized the implementation to incorporate custom encoders/decoders.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-conference">Perception</span>
+                            <span class="tag tag-arxiv">Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/multitask-seg-depth" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-											<div class="inner">
-												<h4>Laser based SLAM for an Indoor Agricultural Robot using Gmapping</h4>
-												<p style="text-align:left;">Developed a mobile robot that autonomously travels indoor environment with laser SLAM using Kinect. 
-													Built plowing, sowing and spraying mechanisms.</p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/agriX" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/sfm1.jpg" alt="Structure from Motion">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Structure From Motion &mdash; Oxford Multi-View Dataset</h3>
+                        <p class="publication-description">Implemented ORB feature matching and Essential Matrix estimation for relative pose recovery. Built feature triangulation and bundle adjustment to construct a sparse 3D scene reconstruction.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-interpretability">3D Vision</span>
+                            <span class="tag tag-conference">Perception</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/mvg" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-										</article>
-											<article>
-												<a class="image"><img src="images/motion.jpg" alt="" />
-												</a>
-												
-												<div class="inner">
-													<h4> Primer on Path Planning Algorithms </h4>
-													<p style="text-align:left;">Implemented various graph and sampling-based motion planning algorithms (RRT, RRT*, Informed RRT*, PRM, D*,
-														A*, Djikstra) and performed a comparative analysis.</p>
-													<ul class="actions special">
-														<li><a href="https://github.com/cdbharath/path_planning_primer" target="_blank" class="icon brands fa-github">Github</a></li>
-													</ul>
-												</div>
-											</article>
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/cube.jpg" alt="Pose Estimation AR">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Augmented Reality &amp; 3D Pose Estimation</h3>
+                        <p class="publication-description">Developed AR for 3D objects with perspective projection and homography. Implemented pose estimation using the Perspective-N-Point algorithm and improved performance with Kalman filtering, using a Rubik's cube as a fiducial.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-interpretability">3D Vision</span>
+                            <span class="tag tag-workshop">AR</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/rubiks_cube_3dcv" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-										<!-- <article>
-											<a href="#" class="image"><img src="images/smc_new.png" alt="" /></a>
-											<div class="inner">
-												<h4>Super Twisting Sliding Mode Control of a Fault Tolerant Quadrotor</h4>
-												<p style="text-align:left;"> Designed a Super Twisting SMC controller for a quadrotor to land safely when any of the rotor fails. 
-													Implemented a control allocation algorithm to accomodate a PID-SMC hybrid control system.</p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/super-twisting-SMC-quad" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/combine_images.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>End-Effector Trajectory Control of a 4DOF Manipulator using EEG signals</h4>
-												<p style="text-align:left;">Designed a 4-DOF pick and place manipulator and simulated in Gazebo. Implemented end effector
-													path planing using Moveit and developed EEG based control.
-												 </p>
-												<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/cerebro" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/exo.png" alt="" /></a>
-											<div class="inner">
-												<h4>Impedance Control of a 2DOF Exoskeleton Arm</h4>
-												<p style="text-align:left;">Designed a solid model of the exoskeleton in Fusion 360. 
-													Implemented impedance control and
-													gravity compensation for end effector tracking of the exoskeleton in Matlab.
-													<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/impedance-control-exoskeleton" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/SDC.png" alt="" /></a>
-											<div class="inner">
-												<h4>Autonomous Differential Drive Robot</h4>
-												<p style="text-align:left;">Built a differential bot to drive through lanes using path segmentation and PID control with visual
-													feedback. The bot abides to traffic signs using image processing techniques.
-													<ul class="actions special">
-													<li><a href="https://github.com/cdbharath/self-driving-car" target="_blank" class="icon brands fa-github">Github</a></li>
-												</ul>
-											</div>
-										</article> -->
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/shadow.png" alt="Shadow Detection">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Shadow Detection &amp; Removal</h3>
+                        <p class="publication-description">Implemented an unsupervised segmentation algorithm for shadow/sub-region segmentation. Tailored a pipeline to match sub-regions and transfer illuminance based on a Gabor filter metric on the SBU shadow dataset.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-conference">Perception</span>
+                            <span class="tag tag-arxiv">Image Processing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/shadow_detection_and_removal" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-									</div>
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/nav.gif" alt="Laser SLAM Agricultural Robot">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Laser SLAM for an Indoor Agricultural Robot</h3>
+                        <p class="publication-description">Developed a mobile robot that autonomously navigates indoor environments with laser SLAM using Kinect. Built plowing, sowing, and spraying mechanisms using Gmapping-based localization.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-safety">SLAM</span>
+                            <span class="tag tag-workshop">Robotics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/agriX" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-								</div>
-							</section>
+                <div class="publication-card">
+                    <div class="publication-image">
+                        <img data-src="images/motion.jpg" alt="Path Planning">
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Primer on Path Planning Algorithms</h3>
+                        <p class="publication-description">Implemented and compared graph-based and sampling-based motion planning algorithms including RRT, RRT*, Informed RRT*, PRM, D*, A*, and Dijkstra with a detailed comparative analysis.</p>
+                        <div class="publication-tags">
+                            <span class="tag tag-workshop">Motion Planning</span>
+                            <span class="tag tag-bibtex">Algorithms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/cdbharath/path_planning_primer" target="_blank" class="cactus-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-							<section id="three">
-								<div class="container">
-									<header class="major">
-									<h3 style="color:#78CD9C ">Education</h3>
-									<!-- <p>Just an incredibly simple responsive site<br />
-									template freebie by .</p> -->
-									</header>
-	
-									<div class="job">
-										<img src="images/logos/wpi.png" alt="WPI Logo" class="logo">
-										<div class="job-description">
-											<p> <br><b>Worcester Polytechnic Institute</b>, Massachusetts (2021 - 2023)</br> 
-												Master of Science, Robotics Engineering. </p>
-												</div>
-									</div>
+            </div>
+        </section>
 
-									<div class="job">
-										<img src="images/logos/nitt.png" alt="NITT Logo" class="logo">
-										<div class="job-description">
-											<p> <br> <b>National Institute of Technology Tiruchirappalli</b>, India (2016 - 2020)</br> 
-												Bachelor of Technology, Instrumentation and Control Engineering. </br> 
-												Minor Degree, Computer Science Engineering </br> </p>
-										</div>
-									</div>
+        <!-- ── Skills ─────────────────────────────────────── -->
+        <section id="skills" class="mb-16">
+            <div class="prose">
+                <h2 class="section-title">Skills</h2>
 
-									<!-- <h4>Graduate:</h4> -->
-									<br>
-									<h3 style="color:#78CD9C ">Work Experience</h3>
-									<!-- <p>Just an incredibly simple responsive site<br />
-									template freebie by .</p> -->
-									<!-- </header> -->
+                <h3 class="subsection-title">Areas of Interest</h3>
+                <div class="skills-tags">
+                    <span class="tag tag-conference">Perception</span>
+                    <span class="tag tag-safety">SLAM</span>
+                    <span class="tag tag-workshop">Motion Planning</span>
+                    <span class="tag tag-interpretability">3D Geometry</span>
+                    <span class="tag tag-arxiv">Autonomous Vehicles</span>
+                    <span class="tag tag-conference">Drones</span>
+                    <span class="tag tag-workshop">Robot Manipulators</span>
+                </div>
 
-									<div class="job">
-										<img src="images/logos/aur.svg" alt="Aur Logo" class="logo">
-										<div class="job-description">
-											<p> <br><b>Software Engineer I, Mapping </b>,
-												<a href="https://aurora.tech/" target="_blank">Aurora</a>, Mountain View (Jun 2023 - Present) </br> 
-											Engineering and maintaining the mapping sub-system for Aurora's Autonomous Vehicles. Developing 3D geometry algorithms
-											and infrastructure to generate offline HD maps with camera and lidar data.
-											</p>
-		
-										</div>
-									</div>
-									<div class="job">
-										<img src="images/logos/flyt.jpeg" alt="Flyt Logo" class="logo">
-										<div class="job-description">
-											<p style="text-align:left;"> <br> <b>Robotics Engineer </b>,  
-												<a href="https://flytbase.com/" target="_blank">Flytbase</a>, India (July 2020 - May 2021) </br> 
-												Developed perception and navigation systems for DJI drones in surveillance and warehouse applications.
-												</p>				
-										</div>
-									</div>
+                <h3 class="subsection-title">Languages</h3>
+                <div class="skills-tags">
+                    <span class="tag tag-interpretability">C++</span>
+                    <span class="tag tag-safety">Python</span>
+                    <span class="tag tag-bibtex">C</span>
+                    <span class="tag tag-bibtex">Linux</span>
+                </div>
 
-									<!-- <h3 style="color:#78CD9C ">Work Experience</h3> -->
-									<!-- <h4>Work Experience:</h4> -->			
-										
-									<!-- <p> <b>Research Intern</b> (May 2018 - June 2018) </br> 
-										Prof. Suresh Sundaram, Artificial Intelligence and Robotics Laboratory, Indian Institute of Science </br> 
-										Super twisting sliding mode control for fault tolerant control of a quadrotor.
-										</p> -->
-								<br>									
-								<h3 style="color:#78CD9C ">Research Experience</h3>
-								<div class="job">
-									<img src="images/logos/mer.jpeg" alt="Mer Logo" class="logo">
-									<div class="job-description">
-										<p> <br> <b>Research Assistant</b> (Nov 2021 - May 2023) </br> 
-											Prof. Berk Calli, Manipulation and Environmental Robotics Lab, Worcester Polytechnic Institute </br> 
-											Vision based Grasp Detection and Benchmarking for manipulators in pick and place applications.
-											</p>
-									</div>
-								</div>
-								<div class="job">
-									<img src="images/logos/wpi.png" alt="Vis Logo" class="logo">
-									<div class="job-description">
-										<p> <br> <b>Research Assistant</b> (Aug 2022 - March 2023) </br> 
-											Prof. Ziming Zhang, Vision, Intelligence and Systems Lab, Worcester Polytechnic Institute </br> 
-											Learning-based ICP inspired visual odometry estimation using Kitti's lidar dataset.
-											</p>
-										</div>
-								</div>
+                <h3 class="subsection-title">Libraries &amp; Tools</h3>
+                <div class="skills-tags">
+                    <span class="tag tag-arxiv">ROS / ROS2</span>
+                    <span class="tag tag-conference">OpenCV</span>
+                    <span class="tag tag-conference">Open3D</span>
+                    <span class="tag tag-workshop">PyTorch</span>
+                    <span class="tag tag-workshop">CUDA</span>
+                    <span class="tag tag-interpretability">Eigen</span>
+                    <span class="tag tag-interpretability">Numpy</span>
+                    <span class="tag tag-safety">Scikit-learn</span>
+                    <span class="tag tag-bibtex">OpenGL</span>
+                </div>
 
-								<br>
-								<h3 style="color:#78CD9C ">Internship Experience</h3>
-								<div class="job">
-									<img src="images/logos/images.png" alt="Brain Logo" class="logo">
-									<div class="job-description">
-										<p> <br> <b>Robotics Software Intern</b>,
-											<a href="https://braincorp.com/" target="_blank">Brain Corp</a>, San Diego (Aug 2022 - Dec 2022) </br> 
-											Developed software for scrubber robots, integrating different components of the robot’s SLAM
-											system.</p>
-										</div>
-								</div>
-								<div class="job">
-									<img src="images/logos/aur.svg" alt="Aur Logo" class="logo">
-									<div class="job-description">
-										<p> <br> <b>Software Intern, Mapping </b>,
-											<a href="https://aurora.tech/" target="_blank">Aurora</a>, Pittsburgh (May 2022 - Aug 2022) </br> 		
-											Researched and Implemented computational geometry and optimization algorithms for lane boundary curve fitting
-											in Atlas (Aurora’s offline 3D map).</p>
-										</div>
-								</div>
-								<div class="job">
-									<img src="images/logos/flyt.jpeg" alt="Flyt Logo" class="logo">
-									<div class="job-description">
-										<p style="text-align:left;"> <br> <b>Robotics Intern </b>,  
-											<a href="https://flytbase.com/" target="_blank">Flytbase</a>, India (May 2020 - July 2021) </br> 
-											Engineered a simulator based on Microsoft AirSim for drone navigation and perception in warehouse setting.
-											</p>				
-									</div>
-								</div>
-								</div>
-							</section>
+                <h3 class="subsection-title">Courses</h3>
+                <div class="skills-tags">
+                    <span class="tag tag-conference">Computer Vision</span>
+                    <span class="tag tag-arxiv">Deep Learning</span>
+                    <span class="tag tag-workshop">Motion Planning</span>
+                    <span class="tag tag-workshop">Robot Dynamics</span>
+                    <span class="tag tag-bibtex">Data Structures &amp; Algorithms</span>
+                </div>
+            </div>
+        </section>
 
+        <!-- ── Research ───────────────────────────────────── -->
+        <section id="research" class="mb-16">
+            <div class="prose">
+                <h2 class="section-title">Research</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org">Manipulation &amp; Environmental Robotics Lab</span>
+                            <span class="timeline-dates">Jan 2022 &ndash; May 2023</span>
+                        </div>
+                        <div class="timeline-meta">Prof. Berk Calli &middot; Worcester Polytechnic Institute &amp; NERVE Center, UMass Lowell</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Benchmarked grasp detection algorithms under various experimental conditions (Panda, UR5, RealSense, ZED 2i). Developed open-source software and simulator to benchmark grasping algorithms.</li>
+                                <li>Implemented vision-based algorithms (GG-CNN, ResNet-based, Point Cloud Top Surface-based, Gripper Mask-based) for benchmark evaluation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org">Vision, Intelligence &amp; Systems Lab</span>
+                            <span class="timeline-dates">Aug 2022 &ndash; May 2023</span>
+                        </div>
+                        <div class="timeline-meta">Prof. Ziming Zhang &middot; Worcester Polytechnic Institute</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Developed a PointNet-inspired odometry regression model utilizing the KITTI lidar dataset. Built a two-stage architecture to filter dynamic objects and estimate 6D poses.</li>
+                                <li>Achieved results comparable to state-of-the-art while outperforming ICP in inference time.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3 style="color:#78CD9C ">Technical Skills</h3>
-									<br>
-									<h4>Areas of Interest:</h4>
-									
-										<ul class="feature-icons">
-											<li class="icon solid fa-eye">Perception</li>
-											<li class="icon solid fa-eye">SLAM</li>
-											<li class="icon solid fa-paper-plane">Motion Planning</li>
-											<li class="icon solid fa-paper-plane">3D Geometry</li>
-											<li class="icon solid fa-truck">Autonomous Vehicles</li>
-											<li class="icon solid fa-paper-plane">Drones</li>
-											<li class="icon solid fa-wrench">Robot Manipulators</li>
-										</ul>
+        <!-- ── Internships ────────────────────────────────── -->
+        <section id="internships" class="mb-16">
+            <div class="prose">
+                <h2 class="section-title">Internships</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org"><a href="https://braincorp.com/" target="_blank" class="cactus-link">Brain Corp</a></span>
+                            <span class="timeline-role">&mdash; Robotics Software Intern</span>
+                            <span class="timeline-dates">Aug 2022 &ndash; Dec 2022</span>
+                        </div>
+                        <div class="timeline-meta">San Diego, CA</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Incorporated camera/lidar calibration module into the autonomy stack.</li>
+                                <li>Developed an in-house performance and memory profiler for Brain Corp's SLAM system.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org"><a href="https://aurora.tech/" target="_blank" class="cactus-link">Aurora</a></span>
+                            <span class="timeline-role">&mdash; Software Engineer Intern, Mapping</span>
+                            <span class="timeline-dates">May 2022 &ndash; Aug 2022</span>
+                        </div>
+                        <div class="timeline-meta">Pittsburgh, PA</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Optimized lane boundary curve fitting in the HD Map creation pipeline, significantly boosting performance.</li>
+                                <li>Developed visualization and metric evaluation tools for the curve fitting algorithm.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <span class="timeline-org"><a href="https://flytbase.com/" target="_blank" class="cactus-link">Flytbase</a></span>
+                            <span class="timeline-role">&mdash; Robotics Intern</span>
+                            <span class="timeline-dates">May 2020 &ndash; Jul 2020</span>
+                        </div>
+                        <div class="timeline-meta">India</div>
+                        <div class="timeline-desc">
+                            <ul>
+                                <li>Created a simulator for drone-based warehouse inventory, extending the capabilities of Microsoft AirSim. Integrated the simulator into the codebase to facilitate testing of drone missions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-									<h4>Tools:</h4>
-										<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p> -->
+    </main>
 
-										<ul class="feature-icons">
-											<li class="icon solid fa-code">C/C++</li>
-											<li class="icon solid fa-code">Python</li>
-											<li class="icon solid fa-laptop">Matlab/Simulink</li>
-											<li class="icon solid fa-laptop">Unity</li>
-											<li class="icon solid fa-laptop">Blender</li>
-											<li class="icon solid fa-laptop">Fusion 360</li>
-										</ul>	
+    <div class="site-footer mx-auto max-w-3xl px-4 sm:px-8">
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/bharath-kumar-9651a6154/" target="_blank" class="footer-icon" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/cdbharath" target="_blank" class="footer-icon" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <a href="mailto:kumar7bharath@gmail.com" class="footer-icon" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+            </a>
+        </div>
+        <p class="footer-copy">Bharath Kumar Ramesh Babu &middot; kumar7bharath@gmail.com</p>
+    </div>
 
-									<!-- <p>Just an incredibly simple responsive site<br />
-									template freebie by .</p> -->
-									<!-- </header>
-									<p> <b>Personal Mail</b>: kumar7bharath@gmail.com </br> 
-										<b>Institute Mail</b>: brameshbabu@wpi.edu </br> -->
-										<!-- <b>US Phone</b>: +1 (774) 701-8216 </br>
-										<b>Indian Phone</b>: +91 8015391159 </br> -->
-									<!-- </p> -->
-									
-
-								</div>
-							</section>
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; HTML5 UP. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
